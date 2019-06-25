@@ -15,4 +15,6 @@ export interface IPageTemplateProps<TSlotType extends string | number> {
     translation: ITranslation;
     sidebarVisible: boolean;
     slots: Record<TSlotType, JSX.Element[]>;
+    /** The configuration object that was passed together with the page URI in the initial CMS "pages" config */
+    options?: unknown;
 }
