@@ -10,4 +10,6 @@ export interface IModuleDef<TContentProps, TContext, TSlotType = undefined> {
     getContentProps(props: IContentProps<TContext, TSlotType> & ILiveContentProps): TContentProps;
     getErrorPlaceholder?(props: IContentProps<TContext, TSlotType> & ILiveContentProps): JSX.Element;
     getLoadingPlaceholder?(props: IContentProps<TContext, TSlotType> & ILiveContentProps): JSX.Element;
+    getHelpComponent?(): Promise<React.ComponentType<IContentProps<TContext, TSlotType>>>;
+    getWrapperStyle?(): React.CSSProperties;
 }
