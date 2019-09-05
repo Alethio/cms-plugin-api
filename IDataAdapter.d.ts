@@ -7,7 +7,8 @@ export interface IDataAdapter<TContext, TData> {
     contextType: Record<keyof TContext, "number" | "string">;
     /**
      * Dependencies on other data adapters. Adapters identified by these URIs will be loaded before this adapter
-     * and their results passed as a parameter to the load method */
+     * and their results passed as a parameter to the load method
+     */
     dependencies?: string[];
     /**
      * @param context
