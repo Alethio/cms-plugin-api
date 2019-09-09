@@ -1,3 +1,5 @@
+import { IPluginManifest } from "./IPluginManifest";
+
 export * from "./IAsyncData";
 export * from "./IContentProps";
 export * from "./IContextDef";
@@ -14,3 +16,11 @@ export * from "./IPlugin";
 export * from "./IPluginApi";
 export * from "./ITranslation";
 export * from "./LoadStatus";
+export * from "./IPluginManifest";
+
+declare global {
+    /**
+     * The manifest for this plugin (available only in plugin code as a webpack pre-processed variable)
+     */
+    export const __plugin_manifest__: IPluginManifest;
+}
