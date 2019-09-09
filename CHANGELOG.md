@@ -1,5 +1,6 @@
 # Unreleased
 
+- Add plugin manifest generation and typings (@alethio/cms@1.0.0-beta.7)
 - Add data adapter dependencies (@alethio/cms@1.0.0-beta.7)
 
 # v1.0.0-beta.5
