@@ -1,6 +1,6 @@
 {
     "name": "@alethio/cms-plugin-api",
-    "version": "1.0.0-beta.5",
+    "version": "1.0.0-beta.6",
     "types": "index",
     "description": "TypeScript definitions for Alethio CMS plugin API",
     "scripts": {
