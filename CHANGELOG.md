@@ -1,3 +1,7 @@
+# unrelease
+
+- **Breaking changes** - removed ITheme and ExternalLink (both are found in @alethio/ui)
+
 # v1.0.0-beta.6
 
 - Add plugin manifest generation and typings (@alethio/cms@1.0.0-beta.7)
