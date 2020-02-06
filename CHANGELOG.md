@@ -1,6 +1,9 @@
 # unrelease
 
-- **Breaking changes** - removed ITheme and ExternalLink (both are found in @alethio/ui)
+## Breaking changes
+
+- Remove ITheme and ExternalLink (both are found in @alethio/ui)
+- Remove MenuItem (can be found now in @alethio/ui v1.1.0+ under `lib/layout/topbar/MobileMenuItem`).
 
 # v1.0.0-beta.6
 
